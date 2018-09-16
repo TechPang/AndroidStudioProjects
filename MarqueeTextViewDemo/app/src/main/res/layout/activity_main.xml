@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+    singleLine 单行显示
+
+    添加这几条属性可以运行单条跑马灯
+    -->
+
+    <com.test.marqueetextviewdemo.MarqueeText
+        android:id="@+id/textview_pmd"
+        android:text="@string/pmd"
+
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.test.marqueetextviewdemo.MarqueeText
+        android:layout_below="@id/textview_pmd"
+        android:layout_marginTop="10dp"
+        android:text="@string/pmd"
+
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

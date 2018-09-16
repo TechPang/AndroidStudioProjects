@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="24sp"
+        android:textColor="#f01b1b"
+        android:gravity="center"
+        android:id="@+id/text_view"
+        android:text="This is TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--
+    textAllCaps 系统默认按钮英文自动大写 该配置可以取消
+    -->
+
+    <Button
+        android:textAllCaps="false"
+        android:text="Button"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--
+    maxLines 设置最大行数
+    -->
+
+    <EditText
+        android:maxLines="2"
+        android:hint="Type something here"
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/img_3"
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--
+    style可以设置进度条样式
+    -->
+
+    <ProgressBar
+        android:max="100"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

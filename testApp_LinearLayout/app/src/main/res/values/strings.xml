@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">testApp_LinearLayout</string>
+    <string name="test">请输入你要搜索的内容</string>
+    <string name="email">请输入收件的邮箱账号</string>
+    <string name="checkBox">计算机</string>
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="second">这是第二个页面</string>
+    <string name="but_text">启动第二个页面</string>
+    <string name="but_first">第一种方式启动页面</string>
+    <string name="but_second">第二种方式启动页面</string>
+    <string name="textView1">测试传递值</string>
+
+</resources>

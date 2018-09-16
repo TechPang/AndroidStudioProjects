@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+        原生DarkActionBar是一款深色主题
+        不带ActionBar的主题有两种 一种带Light的NoActionBar为淡色主题 衬色为深色 一种不带 反之
+        再通过布局导入ToolBar
+
+        除此之外还可以重写colorPrimary标题栏颜色 和colorPrimaryDark状态栏 colorAccent按钮
+        textColorPrimary标题栏字 windowBackground背景色 navigationBarColor导航栏颜色
+        -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--单独在Manifest指定主题-->
+    <style name="FruitActivityTheme" parent="AppTheme"></style>
+
+</resources>

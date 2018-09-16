@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MarqueeTextViewDemo</string>
+    <string name="pmd">我是一个跑马灯 我是一个跑马灯 我是一个跑马灯 我是一个跑马灯 我是一个跑马灯 我是一个跑马灯</string>
+</resources>

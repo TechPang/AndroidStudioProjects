@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--加强版FrameLayout 可以监听子控件事件 自动协调布局-->
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--嵌套AppBarLayout 可以防覆盖-->
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_scrollFlags="scroll|enterAlways|snap"/>
+            <!--
+            使用app命名空间是因为Material Design是在5.0以后才出现的 为了兼容老系统
+            ?attr继承ActionBar的高度和颜色 popupTheme兼容老系统
+            实例化设置
+            scroll 向上滑动会隐藏 enterAlways 反之 snap 根据滑动距离 选择隐藏显示
+            -->
+
+        </android.support.design.widget.AppBarLayout>
+
+        <!--刷新-->
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <!--指定布局行为 可以防覆盖-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <!--悬浮按钮-->
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <!--
+    layout_gravity设置start是基于系统语言向左还是向右滑动菜单
+    -->
+
+    <!--滑动菜单定制布局-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"/>
+    <!--传入menu和header-->
+
+</android.support.v4.widget.DrawerLayout>

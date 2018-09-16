@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--账号-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:text="Account:"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Please input your account"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/account"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!--密码-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:text="Password:"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Please input your password"
+            android:inputType="textPassword"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/remember_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="Remember password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <!--登录按钮-->
+    <Button
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</LinearLayout>

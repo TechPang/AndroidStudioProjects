@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--
+    completionThreshold 输入多少字符开始匹配数据
+    -->
+
+    <AutoCompleteTextView
+        android:completionThreshold="3"
+        android:id="@+id/AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/test" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/MultiAutoCompleteTextView"
+        android:completionThreshold="3"
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:background="#7490ff"
+        android:id="@+id/ToggleButton"
+        android:textOn="软件技术开发社团"
+        android:textOff="软小二"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:background="@drawable/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
