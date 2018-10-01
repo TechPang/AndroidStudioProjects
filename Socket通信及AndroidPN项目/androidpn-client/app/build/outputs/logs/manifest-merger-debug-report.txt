@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:3:2-33
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:4:2-29
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:3:34-64
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:5:2-29:16
+	android:label
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:5:45-77
+	android:icon
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:5:15-44
+activity#org.androidpn.demoapp.DemoAppActivity
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:6:3-11:14
+	android:label
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:6:45-77
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:6:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:7:4-10:20
+action#android.intent.action.MAIN
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:8:5-57
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:8:13-54
+category#android.intent.category.LAUNCHER
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:9:15-62
+activity#org.androidpn.client.NotificationDetailsActivity
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:12:3-14:14
+	android:label
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:13:4-40
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:12:13-76
+activity#org.androidpn.client.NotificationSettingsActivity
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:15:3-17:14
+	android:label
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:16:4-41
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:15:13-77
+service#org.androidpn.client.NotificationService
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:18:3-24:13
+	android:enabled
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:18:12-34
+	android:label
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:20:4-39
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:19:4-59
+intent-filter#action:name:org.androidpn.client.NotificationService
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:21:4-23:20
+action#org.androidpn.client.NotificationService
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:22:13-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:31:2-72
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:31:19-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:32:2-76
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:32:19-73
+uses-permission#android.permission.INTERNET
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:33:2-64
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:33:19-61
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:34:2-73
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:34:19-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:35:2-73
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:35:19-70
+uses-permission#android.permission.VIBRATE
+ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:36:2-63
+	android:name
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml:36:19-60
+uses-sdk
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+		ADDED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GitHub\AndroidStudioProjects\androidpn-client\app\src\main\AndroidManifest.xml

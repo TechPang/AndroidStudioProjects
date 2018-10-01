@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
     private void initLocation(){
         LocationClientOption option = new LocationClientOption();
         option.setScanSpan(5000);   //每隔5秒更新定位
-        option.setLocationMode(LocationClientOption.LocationMode.Device_Sensors);   //指定定位模式 默认Hight_Accuracy模式 即只要有GPS信号 就自动切换模式
+        option.setLocationMode(LocationClientOption.LocationMode.Device_Sensors);   //指定定位模式 默认Height_Accuracy模式 即只要有GPS信号 就自动切换模式
         option.setIsNeedAddress(true);   //获取详细信息
         mLocationClient.setLocOption(option);
     }

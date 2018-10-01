@@ -1,0 +1,4 @@
+#Sun Sep 30 19:46:58 CST 2018
+base.0=F\:\\GitHub\\AndroidStudioProjects\\androidpn-client\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
